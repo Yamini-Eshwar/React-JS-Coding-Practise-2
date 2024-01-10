@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png');
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: white;
+  font-size: 55px;
+  font-family: 'Bree Serif';
+  margin-bottom: 10%;
+}
+
+.Button-container {
+  text-align: center;
+}
+
+button {
+  width: 75px;
+  height: 40px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.Like-button {
+  color: white;
+  background-color: #eab308;
+}
+.comment-button {
+  margin-left: 35px;
+  color: black;
+  background-color: #ffffff;
+  width: 105px;
+  font-weight: 300;
+}
+.share-button {
+  margin-left: 35px;
+  color: white;
+  background-color: #1d4ed8;
+}
